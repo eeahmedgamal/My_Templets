@@ -3,3 +3,6 @@ ues this repo to install jenkins on ubuntu server
 take care you should edit inventory file  
      >> replace <your sever ip>  with your real server ip
      >> replace <yoer key> with your real key 
+
+then just run this command 
+     >>    ansible-playbook -i inventory.ini install-jenkins.yml
