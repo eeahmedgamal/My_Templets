@@ -1,0 +1,7 @@
+---
+- name: Install Jenkins on Ubuntu EC2
+  hosts: jenkins-target
+  become: yes
+  roles:
+    - jenkins
+
