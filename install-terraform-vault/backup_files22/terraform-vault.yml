@@ -1,8 +1,0 @@
-- name: Install Terraform and Vault on Ubuntu EC2
-  hosts: all
-  become: yes
-
-  roles:
-    - terraform
-    - vault
-
